@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/body_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="enter number"
+        android:lineSpacingExtra="14sp"
+        android:text="table generator"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="?android:attr/colorControlActivated"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:typeface="sans"
+        app:fontFamily="serif-monospace" />
+
+    <Button
+        android:id="@+id/generate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="128dp"
+        android:onClick="press"
+        android:text="GENERATE" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:text="enter the number"
+        android:textSize="14sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="266dp"
+        android:layout_height="306dp"
+        android:layout_below="@+id/generate"
+        android:layout_centerHorizontal="true"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+</RelativeLayout>

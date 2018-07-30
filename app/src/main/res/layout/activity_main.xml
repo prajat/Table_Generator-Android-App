@@ -18,7 +18,7 @@
         android:text="table generator"
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
         android:textColor="?android:attr/colorControlActivated"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:textStyle="bold|italic"
         android:typeface="sans"
         app:fontFamily="serif-monospace" />
